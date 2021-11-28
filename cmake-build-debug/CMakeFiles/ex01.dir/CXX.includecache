@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/regina/Desktop/CPP01/ex01/Zombie.hpp
+iostream
+-
+
+/Users/regina/Desktop/CPP01/ex01/ZombieHorde.cpp
+vector
+-
+Zombie.hpp
+/Users/regina/Desktop/CPP01/ex01/Zombie.hpp
+

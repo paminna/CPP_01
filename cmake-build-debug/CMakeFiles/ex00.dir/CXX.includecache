@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/regina/Desktop/CPP01/ex00/Zombie.hpp
+iostream
+-
+
+/Users/regina/Desktop/CPP01/ex00/main.cpp
+Zombie.hpp
+/Users/regina/Desktop/CPP01/ex00/Zombie.hpp
+
+/Users/regina/Desktop/CPP01/ex00/randomChump.cpp
+Zombie.hpp
+/Users/regina/Desktop/CPP01/ex00/Zombie.hpp
+
